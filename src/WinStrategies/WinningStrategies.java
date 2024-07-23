@@ -1,4 +1,4 @@
-package Strategies;
+package WinStrategies;
 
 public interface WinningStrategies {
 }

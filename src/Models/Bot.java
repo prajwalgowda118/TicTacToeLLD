@@ -5,7 +5,7 @@ public class Bot extends Player{
     private BotDifficultLevel botDifficultLevel;
 
     public Bot(String name,Symbol symbol,PlayerType playerType,BotDifficultLevel botDifficultLevel) {
-        super(name,symbol,playerType);
+        super(name,symbol,playerType.BOT);
         this.botDifficultLevel = botDifficultLevel;
     }
 

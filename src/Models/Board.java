@@ -22,6 +22,14 @@ public class Board {
         }
     }
 
+    public long getDimension() {
+        return dimension;
+    }
+
+    public void setDimension(long dimension) {
+        this.dimension = dimension;
+    }
+
     public List<List<Cell>> getBoard() {
         return board;
     }

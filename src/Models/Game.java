@@ -1,6 +1,6 @@
 package Models;
 
-import Strategies.WinningStrategies;
+import WinStrategies.WinningStrategies;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ public class Game {
     private Player winner;
     private List<Player> players;
     private List<Move> move;
-    private long nextPlayerMove;
+    private long nextPlayerMoveindex;
     private List<WinningStrategies> winningStrategies;
 
 
@@ -47,11 +47,11 @@ public class Game {
     }
 
     public long getNextPlayerMove() {
-        return nextPlayerMove;
+        return nextPlayerMoveindex;
     }
 
-    public void setNextPlayerMove(long nextPlayerMove) {
-        this.nextPlayerMove = nextPlayerMove;
+    public void setNextPlayerMove(long nextPlayerMoveindex) {
+        this.nextPlayerMoveindex = nextPlayerMoveindex;
     }
 
     public List<WinningStrategies> getWinningStrategies() {
