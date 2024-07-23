@@ -1,4 +1,11 @@
 package Models;
 
-public class GameStatus {
+import java.util.EnumMap;
+
+public enum GameStatus {
+
+    IN_PROGRESS,
+    DRAW,
+    WIN,
+
 }
